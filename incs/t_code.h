@@ -6,7 +6,7 @@
 /*   By: bguyot <bguyot@student.42mulhouse.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/15 10:40:40 by bguyot            #+#    #+#             */
-/*   Updated: 2023/12/15 10:40:48 by bguyot           ###   ########.fr       */
+/*   Updated: 2023/12/15 11:13:28 by bguyot           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,7 @@
 
 typedef enum	e_code
 {
-	OK
+	OK,
+	FATAL,
+	ERR_ALLOCATION,
 }	t_code;
